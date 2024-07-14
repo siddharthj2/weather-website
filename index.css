@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(182, 121, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 150px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    border-color: black;
+    background: blueviolet;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.wind{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wind .wind-info{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.wind-logo{
+    display: flex;
+    justify-content: center;
+    margin:20px 0px;
+}
+
+.humidity{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.humidity-info{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.humidity-logo{
+    display: flex;
+    justify-content: center;
+    margin:20px 0px;
+}
