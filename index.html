@@ -4,41 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <style src="script.js"></style>
     <title>Weather App</title>
 </head>
 <body>
     <div class="card">
-
         <div class="search">
-            <input type="text" id="city-input" placeholder="enter city name" spellcheck="false">
+            <input type="text" id="city-input" placeholder="Enter city name" spellcheck="false">
             <button id="search-button"><img src="images/search.png" alt=""></button>
         </div>
         
-        <div class="city-name">
-            <p>City name</p>
-        </div>
+        <div class="weather-info">
+            <div class="city-info">
+                <img src="" alt="" id="weather-icon">
+                <p id="city-name">City name</p>
+            </div>
+            <div id="temperature">
+                <h2 id="city-temp">Temperature</h2>
+            </div>
 
-        <div class="wind">
-            <div class="wind-info">
-                <p>Wind speed: </p>
-                <p>javascript</p>
-            </div>
-            <div class="wind-logo">
-                <img src="images/wind.png" alt="">
+            <div class="weather-details">
+                <div class="wind">
+                    <div class="wind-info">
+                        <p>Wind speed:</p>
+                        <p class="wind-speed">-</p>
+                    </div>
+                    <div class="wind-logo">
+                        <img src="images/wind.png" alt="">
+                    </div>
+                </div>
+
+                <div class="humidity">
+                    <div class="humidity-info">
+                        <p>Humidity:</p>
+                        <p class="humidity-value">-</p>
+                    </div>
+                    <div class="humidity-logo">
+                        <img src="images/humidity.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="humidity">
-            <div class="humidity-info">
-                <p>Humidity: </p>
-                <p>javascript</p>
-            </div>
-            <div class="humidity-logo">
-                <img src="images/humidity.png" alt="">
-            </div>
-        </div>
-
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
