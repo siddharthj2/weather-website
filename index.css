@@ -25,6 +25,11 @@ body{
     justify-content: center;
 }
 
+.city-name{
+    display: flex;
+    justify-content: center;
+}
+
 .wind{
     margin-top: 10px;
     display: flex;
